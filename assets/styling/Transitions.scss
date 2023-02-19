@@ -1,0 +1,11 @@
+.fade-in-left-enter-active,
+.fade-in-left-leave-active {
+    transform: translateX(0);
+    transition: all 0.5s ease;
+}
+
+.fade-in-left-enter-from,
+.fade-in-left-leave-to {
+    transform: translateX(100%);
+    opacity: 0;
+}
