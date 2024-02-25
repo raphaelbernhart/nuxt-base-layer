@@ -1,7 +1,7 @@
 // Nuxt configuration file
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindForms from '@tailwindcss/forms';
-import tailwindTypography from '@tailwindcss/typography';
+// import tailwindForms from '@tailwindcss/forms';
+// import tailwindTypography from '@tailwindcss/typography';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
@@ -68,7 +68,7 @@ export default defineNuxtConfig({
     tailwindcss: {
         viewer: false,
         config: {
-            plugins: [tailwindForms, tailwindTypography],
+            // plugins: [tailwindForms, tailwindTypography],
         },
         // Needed to keep the bundle size small in case of config import
         // Sample code: >>import { theme } from "#tailwind-config";<<

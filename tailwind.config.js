@@ -1,11 +1,11 @@
-import defaultTheme from 'tailwindcss/defaultTheme';
+// import defaultTheme from 'tailwindcss/defaultTheme';
 
 export default {
     theme: {
-        screens: {
-            xs: '380px',
-            ...defaultTheme.screens,
-        },
+        // screens: {
+        // xs: '380px',
+        // ...defaultTheme.screens,
+        // },
         fontFamily: {
             sans: ['Source Sans Pro'],
         },
