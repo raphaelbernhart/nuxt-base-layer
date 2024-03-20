@@ -15,6 +15,7 @@ export default defineNuxtConfig({
         '@nuxtjs/tailwindcss',
         '@nuxtjs/google-fonts',
         '@vueuse/nuxt',
+        'dayjs-nuxt',
         '@nuxtjs/plausible',
         '@nuxtjs/seo',
     ],
