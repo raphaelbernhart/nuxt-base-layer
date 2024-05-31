@@ -7,8 +7,7 @@
         "dev": "nuxi dev .playground",
         "build": "nuxt build .playground",
         "generate": "nuxt generate .playground",
-        "preview": "nuxt preview .playground",
-        "postinstall": "nuxt prepare .playground"
+        "preview": "nuxt preview .playground"
     },
     "prettier": "@raphaelbernhart/prettier-config",
     "dependencies": {
