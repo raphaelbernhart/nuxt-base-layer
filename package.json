@@ -1,8 +1,10 @@
 {
-    "name": "nuxt-base-layer",
+    "name": "@raphaelbernhart/nuxt-base-layer",
     "version": "0.0.1",
+    "description": "Base layer for most Nuxt projects.",
     "type": "module",
     "main": "./nuxt.config.ts",
+    "repository": "git+https://github.com/raphaelbernhart/nuxt-base-layer.git",
     "scripts": {
         "dev": "nuxi dev .playground",
         "build": "nuxt build .playground",
