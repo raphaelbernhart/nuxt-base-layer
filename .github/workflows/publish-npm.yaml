@@ -17,5 +17,4 @@ jobs:
               id: publish
               with:
                   token: ${{ secrets.NPM_TOKEN }}
-            - if: $
-              run: echo "Package v${{ steps.publish.outputs.version }} published - https://www.npmjs.com/package/@raphaelbernhart/nuxt-base-layer/v/${{ steps.publish.outputs.version }}"
+            - run: echo "Package v${{ steps.publish.outputs.version }} published - https://www.npmjs.com/package/@raphaelbernhart/nuxt-base-layer/v/${{ steps.publish.outputs.version }}"
