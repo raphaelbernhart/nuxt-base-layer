@@ -12,7 +12,7 @@ jobs:
             - uses: actions/setup-node@v3
               with:
                   node-version: '20'
-            - run: npm i pnpm
+            - run: npm i -g pnpm
             - run: pnpm i --frozen-lockfile
             - uses: JS-DevTools/npm-publish@v3
               id: publish
