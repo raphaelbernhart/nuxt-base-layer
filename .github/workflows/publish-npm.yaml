@@ -12,7 +12,8 @@ jobs:
             - uses: actions/setup-node@v4
               with:
                   node-version: '20.16.0'
-            - run: npm ci
+            - run: npm i -g pnpm
+            - run: pnpm i --frozen-lockfile
             - uses: JS-DevTools/npm-publish@v3
               id: publish
               with:
