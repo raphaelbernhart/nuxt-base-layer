@@ -92,14 +92,5 @@ export default defineNuxtConfig({
         useStylesheet: false,
     },
     devtools: { enabled: true },
-    vite: {
-        build: {
-            rollupOptions: {
-                // output: {
-                //     manualChunks: true,
-                // },
-            },
-        },
-    },
     compatibilityDate: '2024-08-12',
 });
