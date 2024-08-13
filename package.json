@@ -1,6 +1,6 @@
 {
     "name": "@raphaelbernhart/nuxt-base-layer",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Base layer for most Nuxt projects.",
     "author": {
         "name": "Raphael Bernhart",
