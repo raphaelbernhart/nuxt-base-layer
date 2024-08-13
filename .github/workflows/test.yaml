@@ -13,6 +13,8 @@ jobs:
             - name: Check if version has been updated
               id: check
               uses: EndBug/version-check@v2
+              with:
+                  diff-search: true
             - name: Exit if version is not changed
               if: steps.check.outputs.changed == 'false'
               run: echo "Version did not change, keep in mind to upgrade the package version at least one minor version" && exit 1
