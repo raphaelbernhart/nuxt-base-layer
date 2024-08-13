@@ -1,8 +1,15 @@
 {
-    "name": "nuxt-base-layer",
-    "version": "0.0.1",
+    "name": "@raphaelbernhart/nuxt-base-layer",
+    "version": "0.1.1",
+    "description": "Base layer for most Nuxt projects.",
+    "author": {
+        "name": "Raphael Bernhart",
+        "email": "mail@raphaelbernhart.at",
+        "url": "https://raphaelbernhart.at"
+    },
     "type": "module",
     "main": "./nuxt.config.ts",
+    "repository": "git+https://github.com/raphaelbernhart/nuxt-base-layer.git",
     "scripts": {
         "dev": "nuxi dev .playground",
         "build": "nuxt build .playground",
@@ -12,19 +19,19 @@
     "prettier": "@raphaelbernhart/prettier-config",
     "dependencies": {
         "@nuxtjs/google-fonts": "^3.2.0",
-        "@nuxtjs/plausible": "^1.0.0",
-        "@nuxtjs/seo": "2.0.0-rc.10",
-        "@nuxtjs/tailwindcss": "^6.12.0",
-        "@pinia/nuxt": "^0.5.1",
+        "@nuxtjs/plausible": "^1.0.2",
+        "@nuxtjs/seo": "2.0.0-rc.18",
+        "@nuxtjs/tailwindcss": "^6.12.1",
+        "@pinia/nuxt": "^0.5.3",
         "@tailwindcss/forms": "^0.5.7",
-        "@tailwindcss/typography": "^0.5.13",
-        "@vueuse/nuxt": "^10.11.0",
+        "@tailwindcss/typography": "^0.5.14",
+        "@vueuse/nuxt": "^10.11.1",
         "dayjs-nuxt": "^2.1.9",
-        "nuxt-icon": "^0.6.10"
+        "nuxt-icon": "1.0.0-beta.7"
     },
     "devDependencies": {
-        "@nuxt/devtools": "^1.3.3",
+        "@nuxt/devtools": "^1.3.9",
         "@raphaelbernhart/prettier-config": "^1.1.1",
-        "nuxt": "^3.12.1"
+        "nuxt": "^3.12.4"
     }
 }

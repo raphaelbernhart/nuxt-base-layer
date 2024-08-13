@@ -1,0 +1,20 @@
+name: 'Publish npm Package'
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: '20.16.0'
+            - run: npm ci
+            - uses: JS-DevTools/npm-publish@v3
+              id: publish
+              with:
+                  token: ${{ secrets.NPM_TOKEN }}
+            - run: echo "Package v${{ steps.publish.outputs.version }} published - https://www.npmjs.com/package/@raphaelbernhart/nuxt-base-layer/v/${{ steps.publish.outputs.version }}"
