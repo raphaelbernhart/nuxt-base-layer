@@ -92,5 +92,5 @@ export default defineNuxtConfig({
         useStylesheet: false,
     },
     devtools: { enabled: true },
-    compatibilityDate: '2024-08-12',
+    compatibilityDate: '2026-08-29',
 });
