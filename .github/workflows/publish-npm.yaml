@@ -8,12 +8,12 @@ jobs:
     publish:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v4
-            - uses: actions/setup-node@v3
+            - uses: actions/checkout@v7
+            - uses: actions/setup-node@v4
               with:
-                  node-version: '20.16.0'
+                  node-version: '24.19.0'
 
-            - uses: JS-DevTools/npm-publish@v3
+            - uses: JS-DevTools/npm-publish@v4
               id: publish
               with:
                   token: ${{ secrets.NPM_TOKEN }}
